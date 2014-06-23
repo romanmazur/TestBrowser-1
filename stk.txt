@@ -37,6 +37,7 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|CSG|1067235108134200|Chambers Street Properties|0|0|0|
 0|CSIQ|710899|Canadian Solar Inc.|28.75|1|0|
 0|CSUN|716108|China Sunergy Co Ltd|6.84|1|0|
+1|DBA|713176|PowerShares DB Agriculture Fund|0|0|0|
 0|DLTR|657812|Dollar Tree, Inc.|0|0|0|
 0|DO|658040|Diamond Offshore Drilling Inc|46.74|1|0|
 0|DQ|8047548|Daqo New Energy Corp|42.74|1|0|
