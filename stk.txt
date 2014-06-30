@@ -14,7 +14,7 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|BA|661224|The Boeing Company|0|0|0|
 1|BAC|662744|Bank of America Corporation|0|0|0|
 0|BBY|4408|Best Buy Co., Inc.|0|0|0|
-1|BBRY|663276|BlackBerry Ltd|7.3|1|0|
+0|BBRY|663276|BlackBerry Ltd|7.3|1|0|
 0|BIG|662508|Big Lots, Inc.|0|0|0|
 0|BIOS|660784|BioScrip Inc|0|0|0|
 0|BMR|696216|Biomed Realty Trust Inc|18.35|1|0|
@@ -42,7 +42,7 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|DO|658040|Diamond Offshore Drilling Inc|46.74|1|0|
 0|DQ|8047548|Daqo New Energy Corp|42.74|1|0|
 0|DV|655840|DeVry Inc.|0|0|0|
-0|EBAY|662654|eBay Inc.|52.4|1|0|
+1|EBAY|662654|eBay Inc.|0|0|0|
 0|ED|8600|Consolidated Edison, Inc.|53.75|1|0|
 0|ERX|1431344|Direxion Daily Energy Bull 3X Shs(ETF)|0|0|0|
 0|EXC|28724|Exelon Corporation|27.41|1|0|
