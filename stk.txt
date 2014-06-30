@@ -75,7 +75,7 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|HOGS|715186|ZHONGPIN INC.|0|0|0|
 0|HPQ|17154|Hewlett-Packard Company|36.53|0|0|
 0|HTA|330853547149504|Healthcare Trust Of America Inc|10.06|1|0|
-0|IBM|18241|International Business Machines Corp.|199.15|1|0|
+1|IBM|18241|International Business Machines Corp.|0|0|0|
 0|INTC|284784|Intel Corporation|23.2276|1|0|
 0|INVN|6310496|InvenSense Inc|19.36|1|0|
 0|INX|626307|S&P 500 INDEX|0|0|0|
