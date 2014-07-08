@@ -10,7 +10,7 @@ import testbrowser3.WebFile;
  */
 public class GetStkInfo {
 
-public static String stkSymbol = "DBA";
+public static String stkSymbol = "GTAT";
 public static int stkGoogleNum;
 public static String stkGoogleDes;
 

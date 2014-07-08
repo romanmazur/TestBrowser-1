@@ -1,5 +1,5 @@
 isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
-0|AA|803|Alcoa Inc.|0|0|0|
+1|AA|803|Alcoa Inc.|0|0|0|
 0|AAMRQ|13640564|AMR Corporation|0|0|0|
 0|AAP|668575|Advance Auto Parts, Inc.|0|0|0|
 0|AAPL|22144|Apple Inc.|0|0|0|
@@ -37,12 +37,12 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|CSG|1067235108134200|Chambers Street Properties|0|0|0|
 0|CSIQ|710899|Canadian Solar Inc.|28.75|1|0|
 0|CSUN|716108|China Sunergy Co Ltd|6.84|1|0|
-1|DBA|713176|PowerShares DB Agriculture Fund|0|0|0|
+1|DBA|713176|PowerShares DB Agriculture Fund|27.82|1|0|
 0|DLTR|657812|Dollar Tree, Inc.|0|0|0|
 0|DO|658040|Diamond Offshore Drilling Inc|46.74|1|0|
 0|DQ|8047548|Daqo New Energy Corp|42.74|1|0|
 0|DV|655840|DeVry Inc.|0|0|0|
-1|EBAY|662654|eBay Inc.|0|0|0|
+1|EBAY|662654|eBay Inc.|48.58|1|0|
 0|ED|8600|Consolidated Edison, Inc.|53.75|1|0|
 0|ERX|1431344|Direxion Daily Energy Bull 3X Shs(ETF)|0|0|0|
 0|EXC|28724|Exelon Corporation|27.41|1|0|
@@ -66,6 +66,7 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|GPS|13943|The Gap Inc.|41.31|1|0|
 0|GS|663137|Goldman Sachs Group, Inc.|0|0|0|
 0|GST|704594|Gastar Exploration Limited (USA)|0|0|0|
+1|GTAT|12509028|GT Advanced Technologies Inc|0|0|0|
 0|GTE|717007|Gran Tierra Energy Inc.|0|0|0|
 0|HANS|658642|Hansen Natural Corporation|0|0|0|
 0|HBI|709312|Hanesbrands Inc.|0|0|0|
@@ -148,7 +149,7 @@ isActive|symbol|idGOOGLE|companyName|priceBuy|isBuy|Divident%/year|
 0|RT|658868|Ruby Tuesday, Inc.|0|0|0|
 0|SBUX|655693|Starbucks Corporation|0|0|0|
 0|SCO|4310767|ProShares UltraShort DJ-UBS Crude Oi ETF|31.82|1|0|
-1|SDS|714844|ProShares UltraShort S&P500 (ETF)|0|0|0|
+1|SDS|714844|ProShares UltraShort S&P500 (ETF)|25.98|1|0|
 0|SGOC|719431|SGOCO Group Ltd|0|0|0|
 0|SHLD|18800|Sears Holdings Corp|36.19|1|0|
 0|SLE|30793|Sara Lee Corp.|0|0|0|
