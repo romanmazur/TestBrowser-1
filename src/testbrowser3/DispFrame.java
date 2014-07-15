@@ -8,6 +8,7 @@ package testbrowser3;
 //import testbrowser2.*;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -24,15 +25,15 @@ public class DispFrame extends javax.swing.JFrame {
 
     /** Creates new form DispFrame */
     private boolean runThreads = false;
-    private ArrayList<String[]> stockList = new ArrayList<String[]>();
+    private ArrayList<String[]> stockList = new ArrayList<>();
     private boolean realPriceChangeDisp = false;
-    private int  priceRow = 0; // STOCK PRICE
-    private int    chgRow = 1; // STOCK PRICE CHANGE IN %
-    private int preChgRow = 3; // STOCK PRICE CHANGE PRE/AFTER MARKET IN %
-    private int symbolRow = 2; // STOCK SYMBOL
-    private int profitRow = 4; // PROFIT IN %
-    private int    divRow = 5; // DIVIDENT % PER YEAR
-    private int qtyBuyRow = 6; // QTY TO BUY 
+    final private int  priceRow = 0; // STOCK PRICE
+    final private int    chgRow = 1; // STOCK PRICE CHANGE IN %
+    final private int preChgRow = 3; // STOCK PRICE CHANGE PRE/AFTER MARKET IN %
+    final private int symbolRow = 2; // STOCK SYMBOL
+    final private int profitRow = 4; // PROFIT IN %
+    final private int    divRow = 5; // DIVIDENT % PER YEAR
+    final private int qtyBuyRow = 6; // QTY TO BUY 
     
     private String str2Div = "";
 
@@ -265,7 +266,7 @@ public class DispFrame extends javax.swing.JFrame {
                 System.out.println(line);
             }
             //Process p1 = Runtime.getRuntime().exec("calc.exe");
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             ex.printStackTrace();
         }
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -695,7 +696,8 @@ public class DispFrame extends javax.swing.JFrame {
                             priceTable.getModel().setValueAt(str2Div, divRow, t);//Dividents
                             priceTable.getModel().setValueAt(5000/str2Double, qtyBuyRow, t);//3000/x
                             System.out.println("t=" + t);
-                        } catch (Exception e) {
+                        } catch (NumberFormatException e) {
+                            System.out.println("ErrorLine700 -" + e );
                         }
                     //END PUT VALUES IN A TABLE
 
@@ -844,6 +846,7 @@ public class DispFrame extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
+            @Override
             public void run() {
                 new DispFrame().setVisible(true);
             }
